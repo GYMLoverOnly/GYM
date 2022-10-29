@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.backround {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.nevber {
+  width: 97%;
+  margin: auto;
+  padding: -10px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  position: fixed !important;
+}
+
+.logo {
+  font-size: 30px;
+  color: #fff;
+  margin-top: -15px;
+}
+
+.yello {
+  color: black;
+  background-color: rgb(230, 143, 13);
+  border-radius: 5px;
+}
+
+div.nevber {
+  border-bottom: 15px solid black;
+  border-left: 23px solid rgb(230, 143, 13);
+  border-right: 23px solid rgb(230, 143, 13);
+  position: relative;
+}
+
+.nevber ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.nevber ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nevber ul li a:hover {
+  color: black;
+  background-color: rgb(230, 143, 13);
+  border-radius: 3px;
+}
+
+.nevber ul li::after {
+  content: "";
+  height: 3px;
+  width: 0px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(230, 143, 13);
+  transition: 0.5s;
+}
+
+.nevber ul li:hover::after {
+  width: 100%;
+}
+
+.motive {
+  text-align: center;
+  width: 100%;
+
+  padding: 9rem 0px;
+  background: linear-gradient(0deg, #fff, #272727, rgba(89, 87, 87, 0.884));
+}
+
+.motive h2 {
+  color: rgb(230, 143, 13);
+  text-shadow: rgba(98, 97, 97, 0.736) 3px 5px;
+  font-size: 70px;
+}
+
+.motive p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.hading h1 {
+  text-align: center;
+  color: rgb(230, 143, 13);
+  text-shadow: rgb(0, 0, 0) 2px 3px;
+  font-size: 50px;
+}
+
+.hading p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.hading {
+  border-left: 20px solid rgb(230, 143, 13);
+  border-right: 20px solid rgb(230, 143, 13);
+  background-color: rgb(229 151 11 / 66%);
+  border-radius: 20%;
+  padding-bottom: 10px;
+  margin-top: -70px;
+}
+
+.boxs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box img {
+  border-radius: 5px;
+}
+
+.box {
+  margin: 30px;
+  border-left: rgb(230, 143, 13) 5px solid;
+  border-right: rgb(230, 143, 13) 5px solid;
+  box-shadow: rgba(107, 106, 106, 0.444) 2px 5px 10px 5px;
+  background: linear-gradient(0deg, #000, #272727);
+  border-radius: 10px;
+}
+
+.box:active {
+  box-shadow: rgba(230, 143, 13, 0.593) -2px -5px 25px;
+}
+
+.btn {
+  margin-left: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #000, #272727);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.box a {
+  text-decoration: none;
+}
+
+.boxsdite {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.ditehed {
+  color: rgb(230, 143, 13);
+  text-shadow: rgba(98, 97, 97, 0.736) 3px 5px;
+  font-size: 40px;
+  background: rgba(115, 114, 114, 0.579);
+  border-top: rgb(230, 143, 13) 5px solid;
+  border-right: rgb(230, 143, 13) 5px solid;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: rgba(107, 106, 106, 0.444) 2px 5px 10px 5px;
+}
+.dite {
+  text-align: center;
+}
+.formhed {
+  color: #fff;
+  margin-left: -134px;
+}
+
+.forms {
+  margin-top: 1%;
+  border-radius: 20px;
+  width: 50%;
+  height: 280px;
+  margin-left: 45%;
+  text-align: center;
+  border-left: rgb(230, 143, 13) 5px solid;
+  border-right: rgb(230, 143, 13) 5px solid;
+  box-shadow: rgba(107, 106, 106, 0.444) 2px 5px 10px 5px;
+}
+
+input {
+  margin-top: 1px;
+  margin: 4px;
+  border-radius: 4px;
+  width: 30%;
+  box-shadow: #000 2px 3px 10px;
+  border: none;
+  height: 25px;
+}
+
+.btnform {
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  box-shadow: rgba(230, 225, 225, 0.333) 1px 2px 2px 1px;
+  color: #fff;
+  border-bottom: rgb(230, 143, 13) 3px solid;
+  border-left: rgb(230, 143, 13) 3px solid;
+  background-color: #000;
+}
+
+.btnform:active {
+  background-color: rgb(230, 143, 13, 0.711);
+  color: #000;
+  font-size: 24.9px;
+  box-shadow: none;
+  /* border-left: none; */
+}
+
+footer {
+  color: rgb(21, 20, 20);
+  font-size: 30px;
+  text-align: center;
+  text-shadow: rgb(109, 98, 98) 2px 1px;
+  background-color: rgba(28, 28, 28, 0.815);
+
+}
